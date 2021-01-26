@@ -1,0 +1,40 @@
+name: CD
+
+on:
+  push:
+    branches: [production]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+      - name: Set up Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Set up PHP
+        uses: nanasess/setup-php@master
+        with:
+          php-version: "7.3"
+      - run: npm install
+      - run: npm run production
+      - run: composer update
+      - name: Commit built assets
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout -B deploy
+          git add -f public/
+          git add -f vendor/
+          git commit -m "Build front-end assets"
+          git push -f origin deploy
+      - name: Deploy to production
+        uses: appleboy/ssh-action@master
+        with:
+          username: ${{ secrets.USERNAME }}
+          host: ${{ secrets.HOST }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: "cd /home/master/applications/webnet_com_np/public_html && ./server_deploy.sh"
