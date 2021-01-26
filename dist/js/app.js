@@ -1851,7 +1851,7 @@ __webpack_require__.r(__webpack_exports__);
 jquery__WEBPACK_IMPORTED_MODULE_1___default()(document).ready(function () {
   jquery__WEBPACK_IMPORTED_MODULE_1___default().ajax({
     'type': "GET",
-    'url': "http://api.openweathermap.org/data/2.5/weather?q=Lumbini&appid=20d2dc69ee61a80b606f3544f0ee2762",
+    'url': "https://api.openweathermap.org/data/2.5/weather?q=Lumbini&appid=20d2dc69ee61a80b606f3544f0ee2762",
     'success': function success(data) {
       // kelvin = data.main.feels_like
       // celsius = kelvin - 273.15 
