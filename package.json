@@ -1,0 +1,25 @@
+{
+  "name": "htmk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.10",
+    "postcss": "^8.2.4"
+  },
+  "dependencies": {
+    "@icon/icofont": "^1.0.1-alpha.1",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
+    "glyphicons": "^0.2.0",
+    "jquery": "^3.5.1",
+    "laravel-mix-compress-images": "^1.0.4"
+  }
+}
