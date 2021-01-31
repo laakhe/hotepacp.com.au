@@ -12,11 +12,11 @@
                                 <div class="footer-social">
                                     <span>Follow Us:</span>
                                     <ul>
-                                        <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#"><i class="fa fa-dribbble"></i></a></li>
-                                        <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#"><i class="fa fa-behance"></i></a></li>
-                                        <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -25,22 +25,22 @@
                             <div class="footer-widget footer-news-widget">
                                 <h4 class="widget-title">Latest news</h4>
                                 <ul>
-                                    <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#">Aenean tristique justo et nibh molestie, non porttitor eros suscipit</a></li>
-                                    <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#">Phasellus dapibus dictum augue, ut ultricies</a></li>
-                                    <li><a href="https://localhost.com/demo2/html/grand-preview/grand/index.html#">Phasellus dapibus dictum augue, ut ultricies</a></li>
+                                    <li><a href="#">Aenean tristique justo et nibh molestie, non porttitor eros suscipit</a></li>
+                                    <li><a href="#">Phasellus dapibus dictum augue, ut ultricies</a></li>
+                                    <li><a href="#">Phasellus dapibus dictum augue, ut ultricies</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12">
                             <div class="footer-widget footer-flicker-widget">
-                                <h4 class="widget-title">Latest news</h4>
+                                <h4 class="widget-title">Gallery</h4>
                                 <ul>
-                                    <li><a href="./assets/images/flicker1.jpg" data-fancybox="images"><img src="./assets/images/flicker1.jpg" alt=""></a></li>
-                                    <li><a href="./assets/images/flicker2.jpg" data-fancybox="images"><img src="./assets/images/flicker2.jpg" alt=""></a></li>
-                                    <li><a href="./assets/images/flicker3.jpg" data-fancybox="images"><img src="./assets/images/flicker3.jpg" alt=""></a></li>
-                                    <li><a href="./assets/images/flicker4.jpg" data-fancybox="images"><img src="./assets/images/flicker4.jpg" alt=""></a></li>
-                                    <li><a href="./assets/images/flicker5.jpg" data-fancybox="images"><img src="./assets/images/flicker5.jpg" alt=""></a></li>
-                                    <li><a href="./assets/images/flicker6.jpg" data-fancybox="images"><img src="./assets/images/flicker6.jpg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/room-1.jpeg" data-fancybox="images"><img src="./assets/images/gallery/room-1.jpeg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/room-2.jpeg" data-fancybox="images"><img src="./assets/images/gallery/room-2.jpeg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/food-1.jpeg" data-fancybox="images"><img src="./assets/images/gallery/food-1.jpeg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/food-2.jpeg" data-fancybox="images"><img src="./assets/images/gallery/food-2.jpeg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/drink-1.jpeg" data-fancybox="images"><img src="./assets/images/gallery/drink-1.jpeg" alt=""></a></li>
+                                    <li><a href="./assets/images/gallery/drink-2.jpeg" data-fancybox="images"><img src="./assets/images/gallery/drink-2.jpeg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>

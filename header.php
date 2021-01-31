@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="header-logo">
-                        <a href="https://localhost.com/demo2/html/grand-preview/grand/index.html">
+                        <a href="index.php">
                             <img src="./assets/images/logo.png" alt="">
 
                             <span style="display: block;
@@ -90,10 +90,10 @@
                     <div class="main-menu">
                         <nav>
                             <ul class="menu">
-                                <li class="active"><a href="/">Home</a>
+                                <li class="active"><a href="index.php">Home</a>
 
                                 </li>
-                                <li><a href="blog.php">Blog</a>
+                                <li><a href="about.php">About</a>
                                 </li>
                                 <li>
                                     <a href="gallery.php">Gallery</a>
@@ -108,7 +108,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="service.php">Service</a>
+                                    <a href="services.php">Service</a>
 
                                 </li>
 

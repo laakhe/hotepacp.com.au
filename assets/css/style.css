@@ -4015,7 +4015,7 @@ header {
 /*----------------------------------------*/
 
 .oha-service {
-  background: rgba(0, 0, 0, 0) url("../img/service/top-head.jpg") no-repeat
+  background: rgba(0, 0, 0, 0) url("../images/services/banner.jpeg") no-repeat
     scroll left top / cover;
 }
 
@@ -5328,7 +5328,7 @@ header {
 /*----------------------------------------*/
 
 .oha-contact {
-  background: rgba(0, 0, 0, 0) url("../../assets/images/contact-banner.jpg") no-repeat
+  background: rgba(0, 0, 0, 0) url("../../assets/images/contact/banner.jpg") no-repeat
     scroll left top / cover;
 }
 
